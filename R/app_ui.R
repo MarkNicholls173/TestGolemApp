@@ -15,11 +15,29 @@ app_ui <- function(request) {
         title = "Test Golem App"
       ), 
       dashboardSidebar(
+        sidebarMenu(
+          menuItem("Dashboard",
+            tabName = "dashboard",
+            icon = icon("dashboard")
+          ),
+          menuItem("Module 1",
+            tabName = "module1",
+            icon = icon("th")
+          )
+        )
         
       ), 
       dashboardBody(
-        fluidPage(
-          h1("TestGolemApp")
+        tabItems(
+          #first tab content
+          tabItem(tabName = "dashboard",
+            h1("TestGolemApp")
+          ),
+          
+          #second tab content
+          tabItem(tabName = "module1",
+            h1("module 1 content")
+          )
         )
       )
     )
