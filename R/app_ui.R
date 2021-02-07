@@ -12,7 +12,7 @@ app_ui <- function(request) {
     # List the first level UI elements here 
     dashboardPage(
       dashboardHeader(
-        
+        title = "Test Golem App"
       ), 
       dashboardSidebar(
         
