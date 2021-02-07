@@ -36,7 +36,7 @@ app_ui <- function(request) {
           
           #second tab content
           tabItem(tabName = "module1",
-            h1("module 1 content")
+            mod_name_of_module1_ui("name_of_module1_ui_1")
           )
         )
       )

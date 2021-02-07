@@ -10,7 +10,7 @@
 mod_name_of_module1_ui <- function(id){
   ns <- NS(id)
   tagList(
- 
+    h1("module 1 content")
   )
 }
     
