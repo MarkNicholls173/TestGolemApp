@@ -11,17 +11,27 @@
 mod_name_of_module1_ui <- function(id){
   ns <- NS(id)
   tagList(
-      fluidRow(
-        box(title="Shiny css loader demo",
-            width = 12,
-            solidHeader = TRUE,
-            collapsible = TRUE,
-            collapsed = FALSE,
-            status = "primary",
-            plotOutput(ns("my_plot")) %>% withSpinner(),
-            sliderInput(ns("slider1"), "Choose number", 10, 100, 1)
-        ),
-        box(title="Shiny progress bar demo",
+    fluidRow(
+      box(title="Shiny spinner on text demo",
+          width = 12,
+          solidHeader = TRUE,
+          collapsible = TRUE,
+          collapsed = FALSE,
+          status = "primary",
+          textInput(ns("text_demo"), label = "enter text"),
+          textOutput(ns("text_output")) %>% withSpinner(proxy.height = "30px"),
+          actionButton(ns("update_text"), "Update text")
+      ),
+      box(title="Shiny css loader demo",
+          width = 12,
+          solidHeader = TRUE,
+          collapsible = TRUE,
+          collapsed = FALSE,
+          status = "primary",
+          plotOutput(ns("my_plot")) %>% withSpinner(),
+          sliderInput(ns("slider1"), "Choose number", 10, 100, 1)
+      ),
+      box(title="Shiny progress bar demo",
           width = 12,
           solidHeader = TRUE,
           collapsible = TRUE,
@@ -29,7 +39,7 @@ mod_name_of_module1_ui <- function(id){
           status = "primary",
           actionButton(ns("goPlot"), "go Plot"),
           plotOutput(ns("progress_plot"), width = "300px", height = "300px")
-       )
+      )
     ),
   )
 }
@@ -39,8 +49,19 @@ mod_name_of_module1_ui <- function(id){
 #' @noRd 
 mod_name_of_module1_server <- function(input, output, session){
   ns <- session$ns
+  
+  output$text_output <- renderText({
+    req(input$update_text)
+    if(input$update_text == 0){
+      return("please enter text")
+    } else {
+      Sys.sleep(1.5)
+      isolate(input$text_demo)
+    }
+  })
+  
   output$my_plot <- renderPlot({
-    Sys.sleep(1.5)
+    #Sys.sleep(1.5)
     hist(rnorm(input$slider1))
   })
   output$progress_plot <- renderPlot({
@@ -61,13 +82,13 @@ mod_name_of_module1_server <- function(input, output, session){
         incProgress(1/n, detail = paste("Doing part", i))
         
         #sleep to simluate long computation
-        Sys.sleep(0.2)
+        #Sys.sleep(0.2)
       }
       
       plot(dat$x, dat$y)
     })
+    
   })
-
 }
     
 ## To be copied in the UI
