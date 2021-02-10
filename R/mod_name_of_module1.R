@@ -7,10 +7,19 @@
 #' @noRd 
 #'
 #' @importFrom shiny NS tagList 
+#' @import shinycssloaders
 mod_name_of_module1_ui <- function(id){
   ns <- NS(id)
   tagList(
-    h1("module 1 content")
+    fluidPage(
+      fluidRow(
+        h1("Shiny css loader demo")
+      ),
+      fluidRow(
+        plotOutput(ns("my_plot")) %>% withSpinner(),
+        sliderInput(ns("slider1"), "Choose number", 10, 100, 1)
+      )
+    )
   )
 }
     
@@ -19,7 +28,11 @@ mod_name_of_module1_ui <- function(id){
 #' @noRd 
 mod_name_of_module1_server <- function(input, output, session){
   ns <- session$ns
- 
+  output$my_plot <- renderPlot({
+    Sys.sleep(2)
+    hist(rnorm(input$slider1))
+  })
+
 }
     
 ## To be copied in the UI
