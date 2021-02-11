@@ -1,4 +1,5 @@
 ~%2FTestGolemApp%2F.gitignore="A3F9A60A"
+~%2FTestGolemApp%2FDESCRIPTION="51A73CD6"
 ~%2FTestGolemApp%2FR%2Fapp_config.R="BB740D12"
 ~%2FTestGolemApp%2FR%2Fapp_server.R="2252E284"
 ~%2FTestGolemApp%2FR%2Fapp_ui.R="42808136"
@@ -13,4 +14,5 @@
 ~%2FTestGolemApp%2Finst%2Fapp%2Fwww%2Fhandlers.js="255692CA"
 ~%2FTestGolemApp%2Finst%2Fapp%2Fwww%2Fscript.js="61A25163"
 ~%2FTestGolemApp%2Ftests%2Ftestthat%2Ftest-app.R="E915C7C9"
+~%2FTestGolemApp%2Ftests%2Ftestthat.R="DCC91747"
 ~%2FTestGolemApp%2Fvignettes%2FTestGolemApp.Rmd="F863DD57"
