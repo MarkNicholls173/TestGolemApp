@@ -19,8 +19,9 @@ mod_name_of_module1_ui <- function(id){
           collapsed = FALSE,
           status = "primary",
           textInput(ns("text_demo"), label = "enter text"),
-          textOutput(ns("text_output")) %>% withSpinner(proxy.height = "30px"),
-          actionButton(ns("update_text"), "Update text")
+          uiOutput(ns("spinner_spinning")) %>% withSpinner(proxy.height = "30px"),
+          uiOutput(ns("text_output")),
+          actionButton(ns("update_text"), "Do regression")
       ),
       box(title="Shiny css loader demo",
           width = 12,
@@ -28,7 +29,7 @@ mod_name_of_module1_ui <- function(id){
           collapsible = TRUE,
           collapsed = FALSE,
           status = "primary",
-          plotOutput(ns("my_plot")) %>% withSpinner(),
+          plotOutput(ns("my_plot")), # %>% withSpinner(),
           sliderInput(ns("slider1"), "Choose number", 10, 100, 1)
       ),
       box(title="Shiny progress bar demo",
@@ -50,15 +51,30 @@ mod_name_of_module1_ui <- function(id){
 mod_name_of_module1_server <- function(input, output, session){
   ns <- session$ns
   
-  output$text_output <- renderText({
-    req(input$update_text)
-    if(input$update_text == 0){
-      return("please enter text")
+  rv <- reactiveValues( v = 0 )
+  
+  output$spinner_spinning <- renderUI({
+    if(rv$v == 0){
+      NULL
     } else {
-      Sys.sleep(1.5)
-      isolate(input$text_demo)
+      tagList(
+        h2(rv$v)
+      )
     }
+ 
+    
   })
+  
+  output$text_output <- renderUI({
+    input$update_text 
+    isolate(rv$v <- rv$v + 1)
+    Sys.sleep(3)
+    tagList(
+      h2("Done!"),
+    )
+    
+  })
+  
   
   output$my_plot <- renderPlot({
     #Sys.sleep(1.5)
