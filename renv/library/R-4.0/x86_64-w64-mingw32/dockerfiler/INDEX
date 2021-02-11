@@ -1,0 +1,3 @@
+Dockerfile              A Dockerfile template
+dock_from_desc          Docker file from DESCRIPTION
+r                       Turn an R call into an Unix call

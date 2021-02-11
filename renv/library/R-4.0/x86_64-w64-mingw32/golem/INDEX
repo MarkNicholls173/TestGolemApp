@@ -1,0 +1,30 @@
+activate_js             Interact with JavaScript built-in Functions
+add_dockerfile          Create a Dockerfile for Shiny App
+add_fct                 Add fct_ and utils_ files
+add_js_file             Create Files
+add_module              Create a module
+add_resource_path       Add resource path
+add_rstudioconnect_file
+                        Add an app.R at the root of your package to
+                        deploy on RStudio Connect
+addins                  '{golem}' addins
+amend_golem_config      Amend golem config file
+app_prod                Is the app in dev mode or prod mode?
+browser_button          Insert an hidden browser button
+bundle_resources        Automatically serve golem external resources
+cat_dev                 Functions already made dev dependent
+create_golem            Create a package for Shiny App using golem
+detach_all_attached     Detach all attached package
+document_and_reload     Document and reload your package
+expect_shinytag         Test helpers
+fill_desc               Fill your description
+get_golem_options       Get all or one golem options
+get_sysreqs             get system requirements
+golem                   A package for building Shiny App
+make_dev                Make a function dependent to dev mode
+set_golem_options       '{golem}' options
+use_external_js_file    Use Files
+use_favicon             Add a favicon to your shinyapp
+use_recommended_deps    Add recommended elements
+use_utils_ui            Use the utils files
+with_golem_options      Add Golem options to a Shiny App
