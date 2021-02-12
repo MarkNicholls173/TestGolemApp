@@ -1,4 +1,4 @@
-621ed1b8e82285f4718b8811fb909899 *DESCRIPTION
+e72c7f3788b5bc43d77b2b5a299ef1a7 *DESCRIPTION
 59921a8f55ddf79fc7067715a1b5b8f6 *Dockerfile
 bac69c928b3cf3ec3b1f8c42d89859b9 *INDEX
 d64b537893376c36be32c210c5fe93e4 *LICENSE
@@ -7,7 +7,7 @@ d64b537893376c36be32c210c5fe93e4 *LICENSE
 6bbca4d8ba03e1071cc8a8ef9982bdeb *Meta/hsearch.rds
 275763703d9ccc74d46f5bc7a22f23a2 *Meta/links.rds
 bfca2364d28ab31ac146762e0c028ff4 *Meta/nsInfo.rds
-5b8fa15a472b8b682c596fbe685f475b *Meta/package.rds
+8a08bbcc70b29350406e411245eea1c5 *Meta/package.rds
 a622dfd0780eaa3668ce523b5bf51a58 *Meta/vignette.rds
 824b5199f635086eb6d0d44c52eb45af *NAMESPACE
 d528a239a67b788c90a1aa82082ad181 *NEWS.md
@@ -20,8 +20,8 @@ bdfdf08d40e3433b165caee0d3b30b94 *doc/dockerfiler.html
 ad7635afa21dc652f7ea185f341ade4b *doc/index.html
 6ea89f2a18a7b9406ea8ce9abc4305e2 *help/AnIndex
 a71fb91325379a0c3c5ddc3ecb9e515b *help/aliases.rds
-806ae0b43b8e5ec77f513e41acf54fd9 *help/dockerfiler.rdb
-6dc8486a3ab6b638f088a7ac314bad36 *help/dockerfiler.rdx
-e21560d4b0b331d6da187b1ebc72526a *help/paths.rds
+262731405e363926470ea059958fda96 *help/dockerfiler.rdb
+61ba68708bae323e2937adf3e465b594 *help/dockerfiler.rdx
+3c819be7c0f3d2a90ec70b517da34662 *help/paths.rds
 4cb4072e0c48ed23b6172ee401e02081 *html/00Index.html
 b6763e6916890c631fdc3f2643803b1a *html/R.css

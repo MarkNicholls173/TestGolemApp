@@ -1,4 +1,4 @@
-511bd9721f32c7ce4f09991a9adf958d *DESCRIPTION
+6d67addcee4cee4003bc57c3c65bebcb *DESCRIPTION
 bb29a49cf7ce2554b2c5bfa934be449a *INDEX
 8ccdbeca5910ac0d4f75a9247c24be8b *LICENSE
 f3c787e98cd38a0807a12ab4031ed544 *Meta/Rd.rds
@@ -7,7 +7,7 @@ f3c787e98cd38a0807a12ab4031ed544 *Meta/Rd.rds
 429d4cc7ea9b046ffd3c4df49b6e8848 *Meta/hsearch.rds
 90b4460b6290813c6462046ddca3ef56 *Meta/links.rds
 1fafbb42795988e03db7e0d9eed088d0 *Meta/nsInfo.rds
-3504e329a95833fa2efde74199c7932e *Meta/package.rds
+e354b10efafbfcace323b11e56b36689 *Meta/package.rds
 f1b82aad12e8332811e70c4b87a39cfe *NAMESPACE
 a62c46d77cd6f5b6a9b650dacdd9ab9b *NEWS.md
 d6c68f1fe41ced6e98a766a3757313da *R/httpuv
@@ -18,12 +18,12 @@ a7cbd020c872fec211806ac7c1255737 *demo/echo.R
 e2fb57e87eacf05a4c6ba82e537af153 *demo/json-server.R
 eca310ee1c9236b9415ebc97a87f6843 *help/AnIndex
 fee720de6363d14f1093b7bc349a68ac *help/aliases.rds
-6f5760a1a449a16134084ce25158d6a2 *help/httpuv.rdb
-4704bf75db9492fa0f16bece92f1666b *help/httpuv.rdx
-59c880edaf8feaf5a86bb1db51487c25 *help/paths.rds
+33e137fc7d80af9e368d0741650c1d71 *help/httpuv.rdb
+0f312e828372a7d2f6de0ea7c21ea016 *help/httpuv.rdx
+ddd6cede40feb70dc3cc72764dced207 *help/paths.rds
 8297d1b06e6ccb10c23c4c66839b9587 *html/00Index.html
 b6763e6916890c631fdc3f2643803b1a *html/R.css
-d94c38ca4e41cddef83ddd59f9dd97cb *libs/i386/httpuv.dll
+f4f4ef488568d1b26d0638d63d154b5f *libs/i386/httpuv.dll
 8a62c20101570c9a150b2a424bb585e2 *libs/i386/symbols.rds
-bd0e07b8297df80354515cb5a2ab096c *libs/x64/httpuv.dll
+3c682e00496d171459ed8c766c139fdb *libs/x64/httpuv.dll
 179e51dedfc760ccec4da5f2e12a93a3 *libs/x64/symbols.rds

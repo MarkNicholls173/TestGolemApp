@@ -1,4 +1,4 @@
-1389b9ac962cf1375f89dd1254266375 *DESCRIPTION
+2d7785fad818d0cb32b7bf0a4677d12b *DESCRIPTION
 b6b5e269bfa0781dc060c6eda1360778 *INDEX
 44b42abf175150c1e37a8d871caac748 *LICENSE
 4d6186e40c65cb7cb6ee65f0e338e38e *Meta/Rd.rds
@@ -6,7 +6,7 @@ b6b5e269bfa0781dc060c6eda1360778 *INDEX
 8cec48943cc470224e51c7efebc487b2 *Meta/hsearch.rds
 4577828049afa690db59f533b7c79403 *Meta/links.rds
 c1cf76c22baaf7e1d74dbae12765f4e4 *Meta/nsInfo.rds
-ec9a56aed62af6fc2e865a8114e8ee8f *Meta/package.rds
+a8e5a3396ad12fc38d23add0c221b23e *Meta/package.rds
 0690212380ee53b0a416b2454d0d5d4f *Meta/vignette.rds
 439cea2526244c036a2ef5b1cd9ae1f2 *NAMESPACE
 7408c90846a7d6d1d20705d9255fabce *NEWS.md
@@ -53,9 +53,9 @@ ded65192ec2521c8a6fa7854ec0b6b3a *doc/rsconnect.Rmd
 f6e5e0b5f3f27ef8593f97037e3279d4 *help/AnIndex
 ac0c5e0c1b6ff74628db0f35acd3a191 *help/aliases.rds
 268d837fc485cdd1a80a48b8dcfde613 *help/figures/logo.svg
-0e387ab8bdae0f801afeafc71b74e90a *help/paths.rds
-b4a17bef46ecc6fa70e42482e38b5d92 *help/renv.rdb
-eca50f5b983536ad654afab0c52947e8 *help/renv.rdx
+4e236a89bc731354ef273204ac4d6a21 *help/paths.rds
+f75547156f81ed193912452d56d9a89b *help/renv.rdb
+1c80e99a3a10706fd13e69221d11607e *help/renv.rdx
 af083a696586458bb430999fe0a61417 *html/00Index.html
 b6763e6916890c631fdc3f2643803b1a *html/R.css
 27cd492934a619d14a260135badd382c *resources/WELCOME

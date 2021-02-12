@@ -1,7 +1,7 @@
 Package: systemfonts
 Type: Package
 Title: System Native Font Finding
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: 
     c(person(given = "Thomas Lin",
              family = "Pedersen",
@@ -39,13 +39,13 @@ URL: https://github.com/r-lib/systemfonts
 BugReports: https://github.com/r-lib/systemfonts/issues
 LinkingTo: cpp11 (>= 0.2.1)
 NeedsCompilation: yes
-Packaged: 2021-02-01 15:19:28 UTC; thomas
+Packaged: 2021-02-09 12:20:50 UTC; thomas
 Author: Thomas Lin Pedersen [aut, cre]
     (<https://orcid.org/0000-0002-5147-4711>),
   Jeroen Ooms [aut] (<https://orcid.org/0000-0002-4035-0289>),
   Devon Govett [aut] (Author of font-manager),
   RStudio [cph]
 Repository: CRAN
-Date/Publication: 2021-02-01 17:20:07 UTC
-Built: R 4.0.3; x86_64-w64-mingw32; 2021-02-03 10:55:49 UTC; windows
+Date/Publication: 2021-02-09 13:40:10 UTC
+Built: R 4.0.3; x86_64-w64-mingw32; 2021-02-12 11:50:12 UTC; windows
 Archs: i386, x64

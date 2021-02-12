@@ -1,4 +1,4 @@
-17ddec2a93aac2b5d08cc4fcc68d2a44 *DESCRIPTION
+11020a7967da657aed74ff7e328d9224 *DESCRIPTION
 b234ee4d69f5fce4486a80fdaf4a4263 *GPL-2
 d9db758128ea4fcdf7e12871982e6a98 *INDEX
 3ac09f769cf005f04ba1d1f41e0bdf07 *Meta/Rd.rds
@@ -7,7 +7,7 @@ d9db758128ea4fcdf7e12871982e6a98 *INDEX
 6670be07f4c230fa5800b8bfac62ce81 *Meta/hsearch.rds
 2862365f3fafab327779ff99abd40070 *Meta/links.rds
 3c0ff409cca8546c804a5b594d5f7848 *Meta/nsInfo.rds
-d6260d9ce6813ee061fce79b6b9f4453 *Meta/package.rds
+9fc6a22c899163989716df88b0a3b03c *Meta/package.rds
 458b788e371981ec62929aaa7bb708c0 *Meta/vignette.rds
 14402ee218da75987f233d61fa84ab8d *NAMESPACE
 d6c68f1fe41ced6e98a766a3757313da *R/digest
@@ -20,15 +20,15 @@ e6dfa6dd02e6629409e8309d1a3765df *doc/sha1.R
 7225013804cf54f6a63e9974fe27227e *doc/sha1.html
 c7a5267ecd60c94cac5e63ffbfcf7c85 *help/AnIndex
 cc1ebd52f8b85483dffdb24006a60131 *help/aliases.rds
-7ae1531e16ea55434af3c7dc7faf2019 *help/digest.rdb
-8b97c0f0b6296202228c689ce1dd105c *help/digest.rdx
-62330d3e1ff42733e711b62956742c98 *help/paths.rds
+d2cfed8b1a54a4124dad276c9cbc6bd0 *help/digest.rdb
+cdf967a5f1e72a743885e8b0053ae1c3 *help/digest.rdx
+e121d35f7e65d596330b58040ede1883 *help/paths.rds
 aa2b7d360a26a27882640c5a0fcdb4e5 *html/00Index.html
 b6763e6916890c631fdc3f2643803b1a *html/R.css
 82a62fb6337a2be9ae069fee3d50b614 *include/pmurhashAPI.h
-373459141b82a15ce6e164840b0616e2 *libs/i386/digest.dll
+64f26ea5f48bc6dafdfa49b51e6945a3 *libs/i386/digest.dll
 b8208b3c44491778bc70d9fd816fec12 *libs/i386/symbols.rds
-5587cbf98a1184f048d139d42660e764 *libs/x64/digest.dll
+4d638507b51019a788f933dbcec40d96 *libs/x64/digest.dll
 691c1910367ecc1602d1fae9f6cf522f *libs/x64/symbols.rds
 4d75623e0ffe3c04eac1752b7d3d8f6b *tinytest/test_aes.R
 f930ce5c1f9bbcd3b6fe97fd7b5b27f8 *tinytest/test_blake3.R

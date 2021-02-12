@@ -30,7 +30,7 @@ mod_name_of_module1_ui <- function(id){
           collapsed = FALSE,
           status = "primary",
           plotOutput(ns("my_plot")), # %>% withSpinner(),
-          sliderInput(ns("slider1"), "Choose number", 10, 100, 1)
+          sliderInput(ns("slider1"), "Choose number", 10, 100, 50)
       ),
       box(title="Shiny progress bar demo",
           width = 12,

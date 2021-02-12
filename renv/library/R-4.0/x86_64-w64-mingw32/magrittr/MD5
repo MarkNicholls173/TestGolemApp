@@ -1,4 +1,4 @@
-3551dfd20a65eb0ef5b9e64f159a024a *DESCRIPTION
+f3d516dcbfbd4627e82d504babd7b578 *DESCRIPTION
 b65023b5908f7a8933bfeb8e183161ab *INDEX
 b1e40687f249a5e3b384b410b621f40a *LICENSE
 a88192c004d3d2560d8637f56ff6236f *Meta/Rd.rds
@@ -6,7 +6,7 @@ a88192c004d3d2560d8637f56ff6236f *Meta/Rd.rds
 028316d8d24cf8ea71b6dc80deb7df75 *Meta/hsearch.rds
 1f6ddca0cf3acb2d77ef462119b044e0 *Meta/links.rds
 0a654330b9051895e201a81413193aa7 *Meta/nsInfo.rds
-48a0273e6ff57289983e24f6eb60cf93 *Meta/package.rds
+badccda6617bc11c558bd6e654eea205 *Meta/package.rds
 055a05296a2b2c6ed9258382d7d97668 *Meta/vignette.rds
 7e50be7cafb80b9e2380668251e9425d *NAMESPACE
 2975de80b8cd75aa2ba37cf1ddc1ebad *NEWS.md
@@ -24,14 +24,14 @@ ade5c863f8b1f237fcf3642076c00d3e *doc/tradeoffs.Rmd
 094bc3efc936920a85b55b0925d94f24 *help/aliases.rds
 fd4ab3e55d76f18a21681c9d90e0a8de *help/figures/exposition-1.png
 2a60de702f54976c2e9de39fa44a72f4 *help/figures/logo.png
-1be37c0db7dbe7d7b7b5b0188df9f524 *help/magrittr.rdb
-dd86da8bfb485156c30ac59cd50bbceb *help/magrittr.rdx
-ab49d11c222b34ab36415e27d286ab5f *help/paths.rds
+e56e5b35aeabae5ca1f171ed43bbed50 *help/magrittr.rdb
+2d5f1f199920087574bc6f4e1b1a9b4f *help/magrittr.rdx
+87ddca915afd20ed1f2eb6ba74814838 *help/paths.rds
 3fe51d7a37cb5862ce178714bffe9d28 *html/00Index.html
 b6763e6916890c631fdc3f2643803b1a *html/R.css
-3d838d4a61b4844465d2e012a757bbfd *libs/i386/magrittr.dll
+53629d7ad6ed02342f297ded8c7869fa *libs/i386/magrittr.dll
 41fcae8053ba84751e6fe3608cdaf99b *libs/i386/symbols.rds
-275e05d7474e1cb5788db5ba2e20364d *libs/x64/magrittr.dll
+b259b5a08c54474c529e83f275ffe36b *libs/x64/magrittr.dll
 d932e7b20e2ff10f538407e7d7ff2729 *libs/x64/symbols.rds
 320671fcbeb26a1ad31a8be1b8259db1 *logo-hex.png
 49d0817fc5a43e2c1593194ab84fc1d1 *logo-hex.svg
