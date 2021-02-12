@@ -1,4 +1,4 @@
-5eb290089357acf8aecb8f138924cad9 *DESCRIPTION
+15cbd7f93c153f993f8e1b2508b5ad82 *DESCRIPTION
 2cb0bc5c0c1d25d31d653c5faf92627f *INDEX
 a7efc96e6c1157db81ba3615dc5895ae *LICENSE
 aa4dc243875122dc8b0461dd80c16ab1 *Meta/Rd.rds
@@ -6,7 +6,7 @@ aa4dc243875122dc8b0461dd80c16ab1 *Meta/Rd.rds
 713951d0270b41f69d4999aa8904b926 *Meta/hsearch.rds
 7f7c283dd8b370413291939fa6b65bac *Meta/links.rds
 3548e9e6b2493f95c5fb4dc3d5a98473 *Meta/nsInfo.rds
-c2e2e8a2a233a768b9d29a408d2c1e45 *Meta/package.rds
+66ac24f40ee15ea9455de4859f2f65e4 *Meta/package.rds
 e6c9d4e7b7e5449125dc7bd1c803a6d4 *Meta/vignette.rds
 e3c5cfc48d8015ca33f05e5f35c55c8c *NAMESPACE
 11db812695f877876a53a9a838f540c8 *NEWS.md
@@ -20,8 +20,8 @@ d2b7f7e796f15c722631e18a4a49f9c1 *doc/managing-personal-access-tokens.R
 d527f0380316f37782b0ebdf72ef8617 *doc/managing-personal-access-tokens.html
 8fbec891ad1c1260cbc2ea14bb2a21d2 *help/AnIndex
 19bd7ce7af281dd8731259363a3e8c2a *help/aliases.rds
-a2dd6cd510e4133dd9004d4e7a0bbd82 *help/gh.rdb
-2100a4fd676a6263ca943d23b676a54d *help/gh.rdx
-85c3bafada4d718ef64fb745a122cd12 *help/paths.rds
+fdd0bd3ce8c03211a841bb85f0c01ba1 *help/gh.rdb
+90e32ef28cf155b612bb2d7ac8eb8434 *help/gh.rdx
+1fd2a0c677a8536cf7c0cf8873fd4573 *help/paths.rds
 12d7d58aa3ed40d02345a0a7a5f7d3e5 *html/00Index.html
 b6763e6916890c631fdc3f2643803b1a *html/R.css
